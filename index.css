@@ -3,4 +3,57 @@ body {
   padding: 0px;
   box-sizing: border-box;
   overflow: auto;
+  height: 100vh;
+  background: #3498db;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+.dropdown {
+  width: 80%;
+  background: limegreen;
+  height: 10vh;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.projects,
+.services {
+  position: relative;
+}
+
+nav ul {
+  position: absolute;
+  left: 0px;
+  background: lightyellow;
+  margin: 10px 0px 0px 0px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 0px;
+}
+
+.try {
+  background: navajowhite;
+}
+
+nav ul li {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
 }
